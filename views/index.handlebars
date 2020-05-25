@@ -1,0 +1,25 @@
+<section class="py-2">
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <h1 class="display-3 mt-3 pt-5">
+        Web development ebooks
+      </h1><p class="lead">learn web development front to back</p>
+      <form action="/charge" method="POST">
+      <script src="http://checkout.stripe.com/checkout.js"
+      class="stripe-button"
+      data-key="{{stripePublishableKey}}"
+      data-amount="2500"
+      data-name="web development ebook"
+      data-description="ebook written by MohammadSD"
+      data-locale="auto"
+      data-image="/img/marketplace.png"
+      >
+
+      </script>
+      </form>
+    </div>
+      <div class="col-md-6">
+    <img src="/img/images.jpeg" class="img-fluid">
+  </div>
+  </div>
+</section>
